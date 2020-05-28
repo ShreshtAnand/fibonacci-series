@@ -1,0 +1,33 @@
+fib = int(input("enter the no of terms: "))
+a=0
+b=1
+count = 0
+if fib <= 0 :
+    print("Please enter a positive number")
+elif fib == 1 :
+    print("Fibonacci sequence upto",fib,":")
+else :
+    print("Fibonacci sequence: ")
+    while count < fib :
+        print(a)
+        c=a+b
+        a=b
+        b=c
+        count += 1
+        
+ Output: 
+   enter the no of terms: 13
+   0
+   1
+   1
+   2
+   3
+   5
+   8
+   13
+   21
+   34
+   55
+   89
+   144
+   
